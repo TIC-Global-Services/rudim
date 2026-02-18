@@ -489,7 +489,22 @@
         <div class="showcase-section">
           <div class="showcase-wrapper">
             <!-- 2D Drawing -->
-            <div class="drawing-box">
+            <div class="drawing-box" style="position: relative">
+              <p
+                style="
+                  position: absolute;
+                  top: -30px;
+                  left: 50%;
+                  transform: translateX(-50%);
+                  text-align: center;
+                  background: #000;
+                  color: #fff;
+                  border-radius: 5px;
+                  padding: 5px 20px 5px 20px;
+                "
+              >
+                2D Model
+              </p>
               <img src="/images/2d_drawing.jpeg" alt="2D Drawing" />
             </div>
 
@@ -497,7 +512,22 @@
             <div class="divider"></div>
 
             <!-- 3D Model -->
-            <div class="model-box">
+            <div class="model-box" style="position: relative">
+              <p
+                style="
+                  position: absolute;
+                  top: 0;
+                  left: 50%;
+                  transform: translateX(-50%);
+                  text-align: center;
+                  background: #000;
+                  color: #fff;
+                  border-radius: 5px;
+                  padding: 5px 20px 5px 20px;
+                "
+              >
+                3D Model
+              </p>
               <model-viewer
                 src="/model/automobile.glb"
                 alt="Automobile 3D Model"
@@ -643,7 +673,7 @@
             <div class="spacing-7em"></div>
           </div>
         </section>
-        
+
         <div class="industrial-section">
           <div class="container">
             <div class="spacing-7em"></div>
